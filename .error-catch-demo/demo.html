@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo1</title>
+</head>
+<body>
+    <script src="./errorReport.js"></script>
+    <!-- 静态资源加载异常 -->
+    <img src="323422343243s">
+    <script>
+        // Promise错误
+        Promise.resolve().then(()=>{
+            const constNum = 1;
+            constNum = 3;
+        })
+        // js runtime错误
+        const underVar = void 0;
+        underVar.one = 1;
+        // let undefined = 123;
+     </script>
+</body>
+</html>

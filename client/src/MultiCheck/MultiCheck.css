@@ -1,0 +1,34 @@
+/* TODO */
+.MultiCheck {
+    font-size: 16px;
+}
+
+.MultiCheck-label-wrap{
+    height: 34px;
+    padding-left: 10px;
+    background: #ddd;
+    font-size: 20px;
+    line-height: 34px;
+    overflow: hidden;    
+    text-overflow:ellipsis;    
+    white-space: nowrap;
+}
+.MultiCheck-content-wrap{
+    background: #eee;
+    padding: 10px;
+}
+.MultiCheck-content{
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.MultiCheck-column-wrap{
+    height: 100%;
+    flex: 1;
+}
+.MultiCheck-option-wrap{
+    display: flex;
+    align-items: center;
+}
